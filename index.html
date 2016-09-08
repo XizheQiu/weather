@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather</title>
+        <!--Boostrap's CSS-->
+        <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <!--Custom CSS-->
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <div class="container" id="page-container">
+            <h1 id="app-name">
+               Most Beautiful Weather Forecast
+            </h1>
+            <h2 id="page-header">
+                <img src="" id="weatherPic"> 
+                <div id="message">Let's hope today is a great weather</div>
+            </h2>
+            <div class="btn-wrapper">
+                <form id="formID">
+                    <input type="text" id="inputBox" style="color:black;width:250px" placeholder="Enter a city name">
+                    <button type="button" id="my-button">Forecast</button>
+                </form>
+            </div>
+        </div>
+        <!--jQuery Script-->
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+        <!--Bootstrap Script-->
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!--SoundCloud SDK-->
+        <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+        <!--Custom Script-->
+        <script src="./js/main.js"></script>
+    </body>
+</html>
